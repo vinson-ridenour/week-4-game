@@ -1,0 +1,59 @@
+body {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XWW18qcgegmxrssn8sPwttVVsNo1mMPx4WH5afXF9r224iHOkk8BckdP");
+	background-size: cover;
+}
+
+#name-of-the-game {
+	background-color: orange;
+	font-size: 26px;
+	color: whitesmoke;
+	margin-bottom: 10px;
+}
+
+#instructions {
+	color: whitesmoke;
+	background-color: blue;
+	margin-bottom: 10px;
+}
+
+.puppy-image-row {
+	margin-bottom: 10px;
+}
+
+.puppyimage2, .puppyimage3, .puppyimage4 {
+	margin-left: 10px;
+}
+
+img {
+	height: 200px;
+	width: 200px;
+}
+
+#target-number-box {
+	font-size: 26px;
+	color: whitesmoke;
+	background-color: green;
+	height: 200px;
+	margin-bottom: 10px;
+}
+
+#wins-losses-box {
+	color: whitesmoke;
+	font-size: 20px;
+	background-color: pink;
+	height: 200px;
+	margin-left: 10px;
+}
+
+#total-score-is {
+	color: whitesmoke;
+	background-color: green;
+	margin-bottom: 10px;
+}
+
+#total-score {
+	color: whitesmoke;
+	background-color: orange;
+	height: 100px;
+	font-size: 26px;
+}

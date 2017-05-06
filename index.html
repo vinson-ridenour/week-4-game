@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<link type="text/css" href="assets/css/style.css" rel="stylesheet">
+	
+
+<body>
+	<div class="container">
+		
+		<div class="row">
+			
+			<div id="name-of-the-game" class="col-md-4">
+			<p>Puppies Collector!</p>
+			</div>
+
+		</div>
+		
+		<div class="row">
+			
+			<div id="instructions" class="col-md-6">
+				<p>You will be given a random number at the start of the game.</p>
+				<p>There are four puppies below. By clicking on a puppy you will add a specific amount of puppies to your total score.</p>
+				<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+				<p>The value of each puppy is hidden from you until you click on it.</p>
+				<p>Each time when the game starts, the game will change the values of each puppy.</p>
+			</div>
+
+		</div>
+		
+		<div class="row">
+			
+			<div id="target-number-box" class="col-md-3">
+				<p id="target-number">Target Number box:</p>
+			</div>
+			<div id="wins-losses-box" class="col-md-2">
+				<p id="you-win-lose"></p>
+				<p id="number-of-wins">Wins:</p>
+				<p id="number-of-losses">Losses:</p>
+			</div>
+		
+		</div>
+
+		<div class="row">
+			<div class="puppy-image-row">
+				<div class="puppy-image1 col-md-2">
+					<img src="assets/images/littlepuppy.jpg" alt="Cute Puppy Image">
+				</div>
+				<div class="puppy-image2 col-md-2">
+					<img src="assets/images/images.jpeg" alt="Cute Puppy Image">
+				</div>
+
+				<div class="puppy-image3 col-md-2">
+					<img src="assets/images/puppies.jpg" alt="Cute Puppy Image">
+				</div>
+
+				<div class="puppy-image4 col-md-2">
+					<img src="assets/images/puppy.jpg" alt="Cute Puppy Image">
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			
+			<div id="total-score-is" class="col-md-3">
+				Your total score is:
+			</div>
+		</div>
+
+		<div class="row">
+			
+			<div id="total-score" class="col-md-3">
+				Total score:
+			</div>
+		</div>
+	</div>
+
+	<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+	<script src='assets/javascript/game.js'></script>
+
+
+</body>
+</html>
